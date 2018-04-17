@@ -1,0 +1,21 @@
+{
+	"index": [
+		"installation.md", 
+		"your_first_app.md", 
+		"creating_a_server.md"
+	],
+	"tutorials": [
+		{
+			"file": "installation.md",
+			"title": "Installation"
+		},
+		{
+			"file": "your_first_app.md",
+			"title": "Your first app"
+		},
+		{
+			"file": "creating_a_server.md",
+			"title": "Creating a server"
+		}
+	]
+}
