@@ -1,5 +1,7 @@
+> If you haven't seen the previous tutorials, please do. They contain some important information you'll need for this tutorial. 
+
 # Creating a server
-If you haven't seen the previous tutorials, please do. They contain some important information you'll need for this tutorial. So, we now know how to create the cerus variable containing the initialized cerus class. The next step is to create your first server. To do this we will use the following code:
+So, we now know how to create the cerus variable containing the initialized cerus class. The next step is to create your first server. A server is basically a read and write stream that is accessible from a certain port. Streams are a queue of data that is written to by one side and read from by the other vice versa. A port is a code assigned to an endpoint, also called socket, for the stream to go through. These ports are needed since there are allways streams of information active. What you will create in the following lines of code is the socket. This socket will create a stream that is assigned to the selected port, or 80 by default, and to the networks IP address. 
 ```javascript
 var cerus = require("cerus")();
 

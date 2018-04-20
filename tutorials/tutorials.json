@@ -2,7 +2,8 @@
 	"index": [
 		"installation.md", 
 		"your_first_app.md", 
-		"creating_a_server.md"
+		"creating_a_server.md",
+		"routing_paths.md"
 	],
 	"tutorials": [
 		{
@@ -16,6 +17,10 @@
 		{
 			"file": "creating_a_server.md",
 			"title": "3: Creating a server"
+		},
+		{
+			"file": "routing_paths.md",
+			"title": "4: Routing paths"
 		}
 	]
 }
