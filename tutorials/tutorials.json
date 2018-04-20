@@ -7,15 +7,15 @@
 	"tutorials": [
 		{
 			"file": "installation.md",
-			"title": "Installation"
+			"title": "1: Installation"
 		},
 		{
 			"file": "your_first_app.md",
-			"title": "Your first app"
+			"title": "2: Your first app"
 		},
 		{
 			"file": "creating_a_server.md",
-			"title": "Creating a server"
+			"title": "3: Creating a server"
 		}
 	]
 }
