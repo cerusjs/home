@@ -1,6 +1,11 @@
-![alt text](https://i.imgur.com/owrQCO9.png "CerusJS")<br>
+<p align="center">
+	<img height="200" width="500" src="https://i.imgur.com/owrQCO9.png">
+	<p align="center"><a href="https://www.npmjs.com/~cerusjs">NPM</a> | <a href="https://github.com/cerusjs">Github</a> | <a href="https://cerusjs.github.io/">Docs</a></p>
+</p>
+
 Welcome to the home page for CerusJS! CerusJS is a modular, and even more important, understandable NodeJS framework. The whole framework is designed to be easy to learn and use. Since all names are styled the same and a similar styling is used all across the framework all plugins and their modules will be intuitive to use.
 Since CerusJS is also modular, loading times can be decreased drastically since you only use and load the parts you need. This modularity will also improve the usability among other things. Having said that, everything is still open source and available under a [single user](https://github.com/cerusjs). This information "module" contains all the basic tutorials you need when starting out with CerusJS. For more detailed tutorials and the full reference per module you can just click on that module.
+
 
 ## Installation
 Installing CerusJS is pretty easy since it is available through [NPM](https://www.npmjs.com/), but before reading further please make sure you have NodeJS (which also installs NPM by default). When starting out it is recommended to start with the cerus module. It contains all the basic modules you'll need to create a server and other things. From that point installing and using other modules it will be as easy as ABC. Use the following command to install the cerus module:
@@ -9,12 +14,14 @@ Installing CerusJS is pretty easy since it is available through [NPM](https://ww
 $ npm install cerus
 ```
 
+
 ## A short example
 The following example shows how the create and start a server:
 ```javascript
 var cerus = require("cerus")();
 cerus.server().start();
 ```
+
 
 ## Modules
 This is a list of all the official modules. Some modules can be an abstract layer, so they will need a driver to be used with it. Read more about this [here](#).
@@ -33,10 +40,6 @@ This is a list of all the official modules. Some modules can be an abstract laye
 - [cerus-hash](/views/cerus-hash/readme.html): With the cerus-hash module you can encrypt/decrypt data, hash data and it even includes helpers for peer to peer encryption.
 - [cerus-request](/views/cerus-request/readme.html): The cerus-request module is a custom request module you can use to check if your server is behaving correctly.
 
-## Links
-- [NPM](https://www.npmjs.com/~cerusjs)
-- [Github](https://github.com/cerusjs)
-- [Docs](https://cerusjs.github.io/)
 
 ## Contributers
 The author of CerusJS is [JortvD](https://github.com/JortvD).
